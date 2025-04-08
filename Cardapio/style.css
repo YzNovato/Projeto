@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.8;
+}
+
+header {
+    background-color: #3299CC;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-action {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF6EC7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
