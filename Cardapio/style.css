@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #f3a8d6;
+    color: #fff;
     line-height: 1.8;
 }
 
@@ -23,7 +23,7 @@ header {
 .btn-action {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #FF6EC7;
+    background-color: #f3a8d6;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;

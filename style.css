@@ -10,7 +10,7 @@
 :root {
     --white-color: #fff;
     --black-color: #252525;
-    --primary-color: #FF6EC7;
+    --primary-color: #f3a8d6;
     --secundary-color: #3299CC;
 
     --font-size-s: 0.9rem;
@@ -92,7 +92,7 @@ header .navbar {
 
 .navbar .nav-menu .nav-link:hover {
     background: var(--secundary-color);
-    color: var(--primary-color);
+    color: var(--white-color);
 }
 
 .navbar :where(#menu-close-button, #menu-open-button) {
@@ -154,8 +154,21 @@ header .navbar {
    background: transparent;
 }
 
+.hero-section .hero-details .button:hover,
+.hero-section .hero-details .order-now {
+   color: var(--white-color);
+   border-color: var(--white-color);
+   background: transparent;
+}
+
 .hero-section .hero-details .contact-us:hover {
-    color: var(--primary-color);
+    color: var(--white-color);
+    border-color: var(--secundary-color);
+    background: var(--secundary-color);
+}
+
+.hero-section .hero-details .order-now:hover {
+    color: var(--white-color);
     border-color: var(--secundary-color);
     background: var(--secundary-color);
 }
