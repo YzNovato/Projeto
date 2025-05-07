@@ -72,7 +72,7 @@ header .navbar {
 }
 
 .navbar .nav-logo .logo-text {
-    color: var(--secundary-color);
+    color: var(--white-color);
     font-size: var(--font-size-xl);
     font-weight: var(--font-wheight-semi-bold);
 }
@@ -103,7 +103,6 @@ header .navbar {
 .hero-section {
     min-height: 100vh;
     background: var(--primary-color);
-    
 }
 
 .hero-section .section-content {
@@ -112,37 +111,30 @@ header .navbar {
     min-height: 100vh;
     color: var(--white-color);
     justify-content: space-between;
-    width: fit-content;
-    text-align: center;
-
 }
 
 .hero-section .hero-details .title {
-    display: flex;
-    align-items: center;
-   
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-xxl);
     color: var(--secundary-color);
-    font-family: "Poppins", sans-serif;
-    margin-top: 2px;
-    max-width: 70%;
-    font-weight: var(--font-wheight-semi-bold);
-    position: relative;
-    top: -300px;
-    left: 400px;
+    font-family: "miniver", sans-serif;
 }
 
-.hero-section .descricao .descri {
-    
-    width: 500px;
+.hero-section .hero-details .subtitle {
+    margin-top: 8px;
+    max-width: 70%;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-wheight-semi-bold);
+}
+
+.hero-section .hero-details .description {
+    max-width: 70%;
+    margin: 24px 0 40px;
     font-size: var(--font-size-m);
 }
 
 .hero-section .hero-details .buttons {
     display: flex;
     gap: 23px;
-    top: 2000px;
-    
 }
 
 .hero-section .hero-details .button {
@@ -153,7 +145,6 @@ header .navbar {
     background: var(--secundary-color);
     font-weight: var(--font-wheight-medium);
     transition: 0.3s ease;
-    
 }
 
 .hero-section .hero-details .button:hover,
