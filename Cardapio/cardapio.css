@@ -123,21 +123,24 @@ header .navbar {
     color: var(--black-color);
     font-size: var(--font-size-l);
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .container p {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .container ul {
     margin-top: 10px;
     padding-left: 20px;
+    text-align: center;
 }
 
 .container li {
     margin-bottom: 8px;
     color: var(--black-color);
-    list-style-type: disc;
+    text-align: center;
 }
 
 /* Layout com imagem */
@@ -159,13 +162,18 @@ header .navbar {
     align-items: center;
 }
 
+.bolo1{
+    max-width: 50%;
+    height: auto;
+    max-height: 300px;
+}
 .bolo{
     max-width: 100%;
     height: auto;
     max-height: 300px;
 }
 
-
+/* mobile */
 /* mobile */
 @media screen and (max-width: 900px) {
     :root {
@@ -175,17 +183,24 @@ header .navbar {
         --font-size-xxl: 1.8rem;
     }
 
+    .container h2 .container h3 .container p .container ul .container li {
+        text-align: center;
+    }
+
     .content-row {
         flex-direction: column;
         gap: 20px;
+        align-items: center;
     }
     
     .image-content {
-        order: -1;
+        order: -1; 
         margin-bottom: 20px;
     }
     
-    .cake-image {
+    .bolo, .bolo1 {
+        max-width: 80%; 
+        height: auto;
         max-height: 250px;
     }
 
@@ -209,6 +224,7 @@ header .navbar {
         position: absolute;
         right: 30px;
         top: 30px;
+        color: var(--white-color); 
     }
 
     .navbar #menu-open-button {
@@ -216,18 +232,17 @@ header .navbar {
     }
 
     .navbar .nav-menu {
-        display: block;
         position: fixed;
         left: -300px;
         top: 0;
-        width: 300px;
+        width: 280px;
         height: 100%;
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        padding-top: 100px;
+        align-items: flex-start;
+        padding: 80px 30px 30px; 
         background: var(--black-color);
-        transition: left 0.2s ease;
+        transition: left 0.3s ease;
+        z-index: 1000;
     }
 
     body.show-mobile-menu .navbar .nav-menu {
@@ -237,11 +252,14 @@ header .navbar {
     .navbar .nav-menu .nav-link {
         color: var(--white-color);
         display: block;
-        margin-top: 17px;
-        font-size: var(--font-size-l);
+        margin: 15px 0; 
+        font-size: var(--font-size-m);
+        width: 100%;
+        padding: 10px 15px;
+        border-radius: var(--border-radius-s);
     }
 
-    .navbar .nav-menu .nav-link.active {
-        color: var(--white-color);
+    .navbar .nav-menu .nav-link:hover {
+        background: rgba(255, 255, 255, 0.1);
     }
 }
