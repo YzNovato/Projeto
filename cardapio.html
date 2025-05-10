@@ -1,93 +1,143 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/Cardapio/style.css">
+    <title>Elaine Bolos - Cardápio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./Cardapio/cardapio.css">
 </head>
-<header>
-   <h1>Cardápio</h1>
-   <a href="/index.html" class="btn-action">Home</a>
-</header>
-<body>
-    <h2><b>Massas</b></h2>
-    <h3>Branca - Ingredientes:</h3>
-    <h3>Açucar;
-        Água;
-        Essencia de baunilha;
-        Farinha de trigo;
-        Fermento em pó;
-        Ovo.</h3>
-        <h2>  </h2>
-    <h3>Preta - Ingredientes:</h3>
-    <h3>Açucar;
-        Água;
-        Chocolate em pó;
-        Farinha de trigo;
-        Fermento em pó;
-        Ovo.</h3>
 
-    <h2>Recheios</h2> -->
-    <!DOCTYPE html>
-    <html lang="pt-br">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Elaine Bolos</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-        <link rel="stylesheet" href="/Cardapio/cardapio.css">
-    </head>
-    
-    <body>
-        <!-- navbar -->
-        <header>
-            <nav class="navbar section-content">
-                <a href="#" class="nav-logo">
-                    <h2 class="logo-text">Monte seu Bolo</h2>
-                </a>
-                <ul class="nav-menu">
-                    <button id="menu-close-button" class="fas fa-times"></button>
-    
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Sobrenos.html" class="nav-link">Sobre nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/contato.html" class="nav-link">Contato</a>
-                    </li>
-                </ul>
-    
-                <button id="menu-open-button" class="fas fa-bars"></button>
-            </nav>
-        </header>
-    
-        <main>
-            <section class="hero-section">
-                <div class="section-content">
-                    <div class="hero-details">
-                        <h2 class="title">Monte seu Bolo</h2>
-                        <h3 class="subtitle">Monte o bolo de jeito que você preferir</h3>
-                        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
-                            necessitatibus cupiditate corrupti soluta saepe, omnis inventore similique aut voluptatibus
-                            dicta doloremque nesciunt rem, totam eaque? Minus aut animi rerum repudiandae.</p>
-    
-                            <div class="buttons">
-                                <a href="#" class="button order-now">Veja nosso cardapio</a>
-                                <a href="contato.html" class="button contact-us">Peça o seu agora!</a>
-                            </div>
-                    </div>
-                    <div class="hero-image-wrapper">
-                        <img src="./img/home-img.png" alt="bolo" class="hero-image">
-                    </div>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Cardápio</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="/index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Sobrenos.html" class="nav-link">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/cardapio.html" class="nav-link active">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/contato.html" class="nav-link">Contato</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Massas</h2>
+            
+            <div class="content-row">
+                <div class="text-content">
+                    <h3>Baunilha</h3>
+                    <p>Ingredientes:</p>
+                    <ul>
+                        <li>Açúcar</li>
+                        <li>Água</li>
+                        <li>Essência de baunilha</li>
+                        <li>Farinha de trigo</li>
+                        <li>Fermento em pó</li>
+                        <li>Ovo</li>
+                    </ul>
                 </div>
-            </section>
-        </main>
-    
-        <script src="script.js"></script>
-    </body>
-    
-    </html>
+                <div class="image-content">
+                    <img src="./img/imagem-6.jpg" alt="Bolo de baunilha" class="bolo1">
+                </div>
+            </div>
+            
+            <div class="content-row">
+                <div class="text-content">
+                    <h3>Chocolate</h3>
+                    <p>Ingredientes:</p>
+                    <ul>
+                        <li>Açúcar</li>
+                        <li>Água</li>
+                        <li>Chocolate em pó</li>
+                        <li>Farinha de trigo</li>
+                        <li>Fermento em pó</li>
+                        <li>Ovo</li>
+                    </ul>
+                </div>
+                <div class="image-content">
+                    <img src="./img/imagem-3.jpg" alt="Bolo de chocolate" class="bolo1">
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Recheios</h2>
+            <div class="content-row">
+                <div class="text-content">
+                    <h3>Massa de baunilha</h3>
+                    <ul>
+                        <li>Beijinho</li>
+                        <li>Churros</li>
+                        <li>Creme com abacaxi</li>
+                        <li>Doce de leite com abacaxi</li>
+                        <li>Doce de leite com ameixa</li>
+                        <li>Doce de leite com coco</li>
+                        <li>Doce de leite com nozes</li>
+                        <li>Leite ninho</li>
+                        <li>Leite ninho com morango</li>
+                    </ul>
+
+                    <h3>Coberturas massa branca:</h3>
+                    <ul>
+                        <li>Chantilly</li>
+                    </ul>
+                </div>
+                
+                <div class="text-content">
+                    <h3>Massa de chocolate</h3>
+                    <ul>
+                        <li>Brigadeiro</li>
+                        <li>Chandelle</li>
+                        <li>Creme de avelã</li>
+                        <li>Flocado</li>
+                        <li>Mousse alpino</li>
+                        <li>Prestígio</li>
+                    </ul>
+
+                    <h3>Coberturas massa chocolate</h3>
+                    <ul>
+                        <li>Chantilly de chocolate</li>
+                        <li>Raspas de chocolate</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class ="content-row">
+            <div class="image-content">
+                <img src="./img/imagem-5.jpg" alt="Bolo de baunilha 1" class="bolo">
+            </div>
+            <div class="image-content">
+                <img src="./img/imagem-7.jpg" alt="Bolo de baunilha 2" class="bolo">
+            </div>
+            <div class="image-content">
+                <img src="./img/imagem-8.jpg" alt="Bolo de baunilha 3" class="bolo">
+            </div>
+            <div class="image-content">
+                <img src="./img/imagem-1.jpg" alt="Bolo de chocolate 2" class="bolo">
+            </div>
+            <div class="image-content">
+                <img src="./img/imagem-2.jpg" alt="Bolo de chocolate 3" class="bolo">
+            </div>
+            <div class="image-content">
+                <img src="./img/imagem-4.jpg" alt="Bolo de chocolate 4" class="bolo">
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
