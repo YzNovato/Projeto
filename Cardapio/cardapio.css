@@ -117,13 +117,16 @@ header .navbar {
     font-size: var(--font-size-xl);
     margin-bottom: 30px;
     text-align: center;
+     font-family: "Miniver", cursive;
 }
+
 
 .container h3 {
     color: var(--black-color);
     font-size: var(--font-size-l);
     margin-bottom: 15px;
     text-align: center;
+    
 }
 
 .container p {
@@ -182,7 +185,11 @@ header .navbar {
         --font-size-xxl: 1.8rem;
     }
 
-    .container h2 .container h3 .container p .container ul .container li {
+    .container h2,
+    .container h3,
+    .container p,
+    .container ul,
+    .container li {
         text-align: center;
     }
 
@@ -223,24 +230,25 @@ header .navbar {
         position: absolute;
         right: 30px;
         top: 30px;
-        color: var(--white-color); 
+        color: var(--black-color); /* Alterado para preto como no segundo código */
     }
 
     .navbar #menu-open-button {
-        color: var(--black-color);
+        color: var(--black-color); /* Alterado para preto como no segundo código */
     }
 
     .navbar .nav-menu {
         position: fixed;
         left: -300px;
         top: 0;
-        width: 280px;
+        width: 300px;
         height: 100%;
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 80px 30px 30px; 
-        background: var(--black-color);
-        transition: left 0.3s ease;
+        align-items: center;
+        padding-top: 100px;
+        background: var(--white-color);
+        transition: left 0.2s ease;
         z-index: 1000;
     }
 
@@ -249,16 +257,34 @@ header .navbar {
     }
 
     .navbar .nav-menu .nav-link {
-        color: var(--white-color);
+        color: var(--black-color);
         display: block;
-        margin: 15px 0; 
-        font-size: var(--font-size-m);
-        width: 100%;
-        padding: 10px 15px;
-        border-radius: var(--border-radius-s);
+        margin-top: 17px;
+        font-size: var(--font-size-l);
+        /* Removi as propriedades extras que não estavam no segundo código */
     }
 
-    .navbar .nav-menu .nav-link:hover {
-        background: rgba(255, 255, 255, 0.1);
+    /* Removi o hover que não estava no segundo código */
+
+    .hero-section .section-content {
+        gap: 50px;
+        text-align: center;
+        padding: 30px 20px 20px;
+        flex-direction: column-reverse;
+        justify-content: center;
     }
+
+    .hero-section .hero-details :is(.subtitle, .description) {
+        max-width: 100%;
+    }
+
+    .hero-section .hero-details .buttons {
+        justify-content: center;
+    }
+
+    .hero-section .hero-image-wrapper {
+        max-width: 270px;
+        margin-right: 0;
+    }
+}
 }
