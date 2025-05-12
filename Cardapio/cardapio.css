@@ -26,7 +26,7 @@
     --font-wheight-bold: 700;
 
     --border-radius-s: 8px;
-    --border-radius-m: 30px;
+    --border-radius-m: 15px;
     --border-radius-circle: 50%;
 
     --size-max-width: 1300px;
@@ -117,7 +117,7 @@ header .navbar {
     font-size: var(--font-size-xl);
     margin-bottom: 30px;
     text-align: center;
-     font-family: "Miniver", cursive;
+    font-family: "Miniver", cursive;
 }
 
 
@@ -261,10 +261,7 @@ header .navbar {
         display: block;
         margin-top: 17px;
         font-size: var(--font-size-l);
-        /* Removi as propriedades extras que não estavam no segundo código */
     }
-
-    /* Removi o hover que não estava no segundo código */
 
     .hero-section .section-content {
         gap: 50px;
@@ -286,5 +283,4 @@ header .navbar {
         max-width: 270px;
         margin-right: 0;
     }
-}
 }

@@ -9,7 +9,7 @@
 
 :root {
     --white-color: #fff;
-    --black-color: #252525;
+    --black-color: #000000;
     --primary-color: #f3a8d6;
     --secundary-color: #3299CC;
 
@@ -26,7 +26,7 @@
     --font-wheight-bold: 700;
 
     --border-radius-s: 8px;
-    --border-radius-m: 30px;
+    --border-radius-m: 15px;
     --border-radius-circle: 50%;
 
     --size-max-width: 1300px;
@@ -72,7 +72,7 @@ header .navbar {
 }
 
 .navbar .nav-logo .logo-text {
-    color: var(--white-color);
+    color: var(--black-color);
     font-size: var(--font-size-xl);
     font-weight: var(--font-wheight-semi-bold);
 }
@@ -84,7 +84,7 @@ header .navbar {
 
 .navbar .nav-menu .nav-link {
     padding: 10px 18px;
-    color: var(--white-color);
+    color: var(--black-color);
     font-size: var(--font-size-m);
     border-radius: var(--border-radius-m);
     transition: 0.3s ease;
@@ -92,7 +92,7 @@ header .navbar {
 
 .navbar .nav-menu .nav-link:hover {
     background: var(--secundary-color);
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .navbar :where(#menu-close-button, #menu-open-button) {
@@ -109,14 +109,14 @@ header .navbar {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    color: var(--white-color);
+    color: var(--black-color);
     justify-content: space-between;
 }
 
 .hero-section .hero-details .title {
     font-size: var(--font-size-xxl);
-    color: var(--secundary-color);
-    font-family: "miniver", sans-serif;
+    color: var(--black-color);
+    font-family: "Miniver", cursive;
 }
 
 .hero-section .hero-details .subtitle {
@@ -149,26 +149,26 @@ header .navbar {
 
 .hero-section .hero-details .button:hover,
 .hero-section .hero-details .contact-us {
-   color: var(--white-color);
-   border-color: var(--white-color);
+   color: var(--black-color);
+   border-color: var(--black-color);
    background: transparent;
 }
 
 .hero-section .hero-details .button:hover,
 .hero-section .hero-details .order-now {
-   color: var(--white-color);
-   border-color: var(--white-color);
+   color: var(--black-color);
+   border-color: var(--black-color);
    background: transparent;
 }
 
 .hero-section .hero-details .contact-us:hover {
-    color: var(--white-color);
+    color: var(--black-color);
     border-color: var(--secundary-color);
     background: var(--secundary-color);
 }
 
 .hero-section .hero-details .order-now:hover {
-    color: var(--white-color);
+    color: var(--black-color);
     border-color: var(--secundary-color);
     background: var(--secundary-color);
 }
