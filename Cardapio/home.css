@@ -109,7 +109,7 @@ header .navbar {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    color: var(--white-color);
+    color: var(--black-color);
     justify-content: space-between;
 }
 
