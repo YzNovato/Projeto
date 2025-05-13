@@ -211,7 +211,7 @@ header .navbar {
     }
 
     .navbar #menu-open-button {
-        color: var(--white-color);
+        color: var(--black-color);
     }
 
     .navbar .nav-menu {
