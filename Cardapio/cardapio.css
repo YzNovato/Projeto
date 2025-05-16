@@ -230,11 +230,11 @@ header .navbar {
         position: absolute;
         right: 30px;
         top: 30px;
-        color: var(--black-color); /* Alterado para preto como no segundo código */
+        color: var(--black-color);
     }
 
     .navbar #menu-open-button {
-        color: var(--black-color); /* Alterado para preto como no segundo código */
+        color: var(--black-color); 
     }
 
     .navbar .nav-menu {
